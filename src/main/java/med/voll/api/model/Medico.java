@@ -17,7 +17,7 @@ import med.voll.api.enums.EspecialidadeEnum;
 import med.voll.api.record.DadosAtualizacaoMedico;
 import med.voll.api.record.DadosCadastroMedico;
 
-@Table(name = "medico")
+@Table(name = "medicos")
 @Entity(name = "Medico")
 @Getter
 @NoArgsConstructor
@@ -36,7 +36,7 @@ public class Medico {
 	@Embedded
 	private Endereco endereco;
 	
-	private boolean ativo;
+	private Boolean ativo;
 	
 	
 	public Medico(DadosCadastroMedico dados) {

@@ -1,6 +1,12 @@
 package med.voll.api.enums;
 
 public enum EspecialidadeEnum {
-	ORTOPEDIA, CARDIOLOGIA,GINECOLOGIA,DERMATOLOGIA;
-
+	CARDIOLOGIA,
+    DERMATOLOGIA,
+    ORTOPEDIA,
+    PEDIATRIA,
+    GINECOLOGIA,
+    UROLOGIA,
+    CLINICA_GERAL,
+    NEUROLOGIA;
 }
